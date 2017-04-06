@@ -3,7 +3,7 @@
 For relational database guys, Redis' data structure is strange at first.
 But with 6 simple tricks you can get the most from Redis:
 
-1. The most important thing is that, don't be afraid to generate lots of key-value pairs. So feel free to store each row of the table in a different row.
+1. The most important thing is that, don't be afraid to generate lots of key-value pairs. So feel free to store each row of the table in a different key.
 2. Use Redis' hash map data type
 3. Form key name from primary key values of the table by a seperator (such as ":")
 4. Store the remaining fields as a hash
